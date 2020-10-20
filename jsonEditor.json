@@ -1,0 +1,361 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "clothes locator skill",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "HelloWorldIntent",
+                    "slots": [],
+                    "samples": [
+                        "hello",
+                        "how are you",
+                        "say hi world",
+                        "say hi",
+                        "hi",
+                        "say hello world",
+                        "say hello"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "ShowCategoryIntent",
+                    "slots": [],
+                    "samples": [
+                        "show me all category",
+                        "show me all categories"
+                    ]
+                },
+                {
+                    "name": "ShowProductIntent",
+                    "slots": [
+                        {
+                            "name": "subCategoryName",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "select subcategory {subCategoryName}"
+                    ]
+                },
+                {
+                    "name": "ShowSubCategoryIntent",
+                    "slots": [
+                        {
+                            "name": "categoryName",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "select category {categoryName}"
+                    ]
+                },
+                {
+                    "name": "SelectProductIntent",
+                    "slots": [
+                        {
+                            "name": "productName",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "select product {productName}"
+                    ]
+                },
+                {
+                    "name": "ShowBrandIntent",
+                    "slots": [],
+                    "samples": [
+                        "give me all brands",
+                        "show me brand"
+                    ]
+                },
+                {
+                    "name": "SelectBrandIntent",
+                    "slots": [
+                        {
+                            "name": "brandName",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "select brand {brandName}"
+                    ]
+                },
+                {
+                    "name": "ShowColorIntent",
+                    "slots": [],
+                    "samples": [
+                        "give me all colors",
+                        "give me colors",
+                        "show me colors",
+                        "show me all colors"
+                    ]
+                },
+                {
+                    "name": "SelectColorIntent",
+                    "slots": [
+                        {
+                            "name": "colorTypeName",
+                            "type": "AMAZON.Color"
+                        }
+                    ],
+                    "samples": [
+                        "select color {colorTypeName}"
+                    ]
+                },
+                {
+                    "name": "SelectSizeIntent",
+                    "slots": [
+                        {
+                            "name": "sizeName",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "select size {sizeName}"
+                    ]
+                },
+                {
+                    "name": "ShowFinalProductIntent",
+                    "slots": [],
+                    "samples": [
+                        "show me final product",
+                        "show me final products"
+                    ]
+                },
+                {
+                    "name": "AvailableBrandIntent",
+                    "slots": [
+                        {
+                            "name": "productName",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "show available brands for {productName} "
+                    ]
+                },
+                {
+                    "name": "AvailableColorIntent",
+                    "slots": [
+                        {
+                            "name": "productName",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "show available colors for {productName}"
+                    ]
+                },
+                {
+                    "name": "ShowAllProductsIntent",
+                    "slots": [],
+                    "samples": [
+                        "show me available products"
+                    ]
+                },
+                {
+                    "name": "AvailableColorTwoIntent",
+                    "slots": [
+                        {
+                            "name": "productName",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "give me available colors for {productName}"
+                    ]
+                },
+                {
+                    "name": "AvailableBrandTwoIntent",
+                    "slots": [
+                        {
+                            "name": "productName",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "give me available brands for {productName}"
+                    ]
+                },
+                {
+                    "name": "ShowFinalProductTwoIntent",
+                    "slots": [],
+                    "samples": [
+                        "Give me final products"
+                    ]
+                },
+                {
+                    "name": "ShowFinalProductThreeIntent",
+                    "slots": [],
+                    "samples": [
+                        "find the final products",
+                        "find the final product"
+                    ]
+                },
+                {
+                    "name": "SelectColorTwoIntent",
+                    "slots": [
+                        {
+                            "name": "colorTypeName",
+                            "type": "AMAZON.Color"
+                        }
+                    ],
+                    "samples": [
+                        "give me {colorTypeName} color"
+                    ]
+                },
+                {
+                    "name": "SelectBrandTwoIntent",
+                    "slots": [
+                        {
+                            "name": "brandName",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "give me brand {brandName}"
+                    ]
+                },
+                {
+                    "name": "SelectSizeTwoIntent",
+                    "slots": [
+                        {
+                            "name": "sizeName",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "give me size {sizeName}"
+                    ]
+                },
+                {
+                    "name": "AvailableBrandThreeIntent",
+                    "slots": [
+                        {
+                            "name": "productName",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "which brands are available for {productName}"
+                    ]
+                },
+                {
+                    "name": "SelectBrandThreeIntent",
+                    "slots": [
+                        {
+                            "name": "brandName",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "choose brand {brandName}"
+                    ]
+                },
+                {
+                    "name": "SelectSizeThreeIntent",
+                    "slots": [
+                        {
+                            "name": "sizeName",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "choose size {sizeName}"
+                    ]
+                },
+                {
+                    "name": "ShowCategoryFourIntent",
+                    "slots": [],
+                    "samples": [
+                        "get all category",
+                        "get category",
+                        "get categories",
+                        "get all categories"
+                    ]
+                },
+                {
+                    "name": "ShowSubCategoryFourIntent",
+                    "slots": [
+                        {
+                            "name": "categoryName",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "get category {categoryName}"
+                    ]
+                },
+                {
+                    "name": "ShowProductFourIntent",
+                    "slots": [
+                        {
+                            "name": "subCategoryName",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "get subCategory {subCategoryName}"
+                    ]
+                },
+                {
+                    "name": "SelectProductFourIntent",
+                    "slots": [
+                        {
+                            "name": "productName",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "get product {productName}"
+                    ]
+                },
+                {
+                    "name": "SelectSizeFourIntent",
+                    "slots": [
+                        {
+                            "name": "sizeName",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "get size {sizeName}"
+                    ]
+                },
+                {
+                    "name": "ShowFinalProductFourIntent",
+                    "slots": [],
+                    "samples": [
+                        "get final products",
+                        "get final product"
+                    ]
+                },
+                {
+                    "name": "ShowAllProductsThreeIntent",
+                    "slots": [],
+                    "samples": [
+                        "choose available product",
+                        "choose available products"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
